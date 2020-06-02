@@ -1,0 +1,19 @@
+header {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  height: 30px;
+  margin: 10px;
+}
+
+#search-bar {
+  margin: 10px;
+}
+
+#search-bar input {
+  width: 100%;
+}
