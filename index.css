@@ -3,17 +3,31 @@ header {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #logo {
   height: 30px;
   margin: 10px;
+  width: auto;
 }
 
 #search-bar {
   margin: 10px;
+  display: flex;
+  width: 50%;
 }
 
 #search-bar input {
+  display: inline;
   width: 100%;
+}
+
+#search-bar button{
+  display: inline;
+}
+
+i{
+  padding: 10px;
+  color: rgb(96, 96, 96)
 }
