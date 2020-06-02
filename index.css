@@ -185,7 +185,7 @@ span {
   align-items: center;
 }
 
-#channel-info div h3, #channel-info div p{
+.channel-name, #channel-info div p{
   margin: 0;
   padding: 2px;
 }
@@ -231,4 +231,21 @@ span {
 
 #show-more:hover{
   cursor: pointer;
+}
+
+.recommended-video{
+  display: flex;
+  width: 100%;
+}
+
+.video-img-container{
+  
+}
+
+.thumbnail{
+  width: 150px;
+  height: 100px;
+}
+.info{
+  padding: 10px;
 }
