@@ -3,6 +3,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   background-color: #f9f9f9;
+  font-family: Roboto, Arial, sans-serif;
 }
 
 header {
@@ -44,13 +45,13 @@ header {
 }
 
 #search-bar button:active {
-  border: none;
+  border: 1px solid rgb(195, 195, 195);
   outline: none;
 }
 
 #search-bar input:focus {
   border: 1px solid rgb(195, 195, 195);
-  outline: 1px solid rgb(195, 195, 195);
+  outline: none;
 }
 
 #search-bar i {
@@ -90,14 +91,13 @@ header {
 }
 
 main {
-  margin: 3% auto;
-  width: 70%;
+  margin: 1% auto;
+  width: 80%;
   display: flex;
 }
 
 #video-container {
   width: 100%;
-  /* margin: 10px; */
 }
 
 #video-player {
@@ -105,6 +105,65 @@ main {
 }
 
 iframe {
-  width: 288%;
-  height: 600px;
+  width: 100%;
+  height: 75vh;
+}
+
+#video-title {
+  font-size: 1.2em;
+}
+
+#video-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: -2% 0;
+}
+
+.ratings {
+  display: flex;
+}
+
+.views {
+  color: rgb(96, 96, 96);
+}
+
+.date {
+  color: rgb(96, 96, 96);
+  margin-left: 10px;
+}
+
+.reactions {
+  display: flex;
+  align-items: center;
+}
+
+.likes {
+  border-bottom: 2px solid rgb(96, 96, 96);
+}
+
+.likes i {
+  margin: 5px 5px;
+  padding: 5px 5px;
+  color: rgb(96, 96, 96);
+}
+
+.reactions .fa-share,
+.fa-list-ul,
+.fa-bars {
+  margin: 0 5px;
+  padding: 0 5px;
+  color: rgb(96, 96, 96);
+}
+
+span {
+  margin: 5px;
+  font-weight: normal;
+  font-family: Roboto, Arial, sans-serif !important;
+}
+
+.recommendation {
+  width: 40%;
+  background-color: grey;
+  margin: 10px;
 }
