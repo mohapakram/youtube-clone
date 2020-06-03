@@ -264,3 +264,7 @@ span {
 .info {
   padding: 10px;
 }
+
+.fas {
+  cursor: pointer;
+}
