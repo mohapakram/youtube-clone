@@ -17,9 +17,9 @@ Open index.html file in your browser.
 
 - Github: [@githubhandle](https://github.com/mohabakram)
 
-👤 **Author2**
+👤 **Olawale**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
+- Github: [@githubhandle](https://github.com/OlawaleJoseph)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
