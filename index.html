@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Youtube Player</title>
     <link rel="stylesheet" href="index.css" />
@@ -40,61 +41,79 @@
       </div>
     </header>
     <main>
-        <div id="video-container">
-          <div id="video-player">
-            <iframe src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div id="video-title">
-            <p>Contributing to Open Source Part I: The Easy Way</p>
-          </div>
-          <div id="video-info">
-            <div class="ratings">
-              <div class="views">
-                <p>57,151 views</p>
-              </div>
-              <div class="date">
-                <p>• Feb 27, 2014</p>
-              </div>
-            </div>
-            <div class="reactions">
-              <div class="likes">
-                <i class="fas fa-thumbs-up"><span> 554</span></i>
-                <i class="fas fa-thumbs-down"> <span>213</span> </i>
-              </div>
-              <i class="fas fa-share"><span>share</span></i>
-              <i class="fas fa-list-ul"><span>save</span></i>
-              <i class="fas fa-bars"></i>
-            </div>
-          </div>
-          <div class="video-description">
-            <div class="channel">
-              <div id="channel-info">
-                <img src="https://via.placeholder.com/55" id="channel-image" alt="channel-pic">
-                <div>
-                  <h3 class="channel-name">The Odin Project</h3>
-                  <p id="subscribers"> 988 subscribers</p>
-                </div>
-              </div>
-              <button id="subscribe">subscribe</button>
-            </div>
-            <p id="video-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quaerat voluptate assumenda voluptas accusantium enim eligendi vel atque itaque eveniet, quibusdam minus modi, ea beatae ad expedita magni fugit eos placeat debitis animi? In molestiae eveniet doloribus laborum numquam ex repellat. Sapiente, ratione veritatis. Soluta earum pariatur quidem officia sapiente.
-              <p id="show-more">SHOW MORE</p>
-            </p>
-          </div>
-        </section>
-        <div id="comments">
-          <h4>Comments</h4>
+      <section id="video-container">
+        <div id="video-player">
+          <iframe
+            src="https://www.youtube.com/embed/V74l_zS1x8E"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
+        <div id="video-title">
+          <p>Contributing to Open Source Part I: The Easy Way</p>
         </div>
+        <div id="video-info">
+          <div class="ratings">
+            <div class="views">
+              <p>57,151 views</p>
+            </div>
+            <div class="date">
+              <p>• Feb 27, 2014</p>
+            </div>
+          </div>
+          <div class="reactions">
+            <div class="likes">
+              <i class="fas fa-thumbs-up"><span> 554</span></i>
+              <i class="fas fa-thumbs-down"> <span>213</span> </i>
+            </div>
+            <i class="fas fa-share"><span>share</span></i>
+            <i class="fas fa-list-ul"><span>save</span></i>
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+        <div class="video-description">
+          <div class="channel">
+            <div id="channel-info">
+              <img
+                src="https://via.placeholder.com/55"
+                id="channel-image"
+                alt="channel-pic"
+              />
+              <div>
+                <h3 class="channel-name">The Odin Project</h3>
+                <p id="subscribers">988 subscribers</p>
+              </div>
+            </div>
+            <button id="subscribe">subscribe</button>
+          </div>
+          <p id="video-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+            quaerat voluptate assumenda voluptas accusantium enim eligendi vel
+            atque itaque eveniet, quibusdam minus modi, ea beatae ad expedita
+            magni fugit eos placeat debitis animi? In molestiae eveniet
+            doloribus laborum numquam ex repellat. Sapiente, ratione veritatis.
+            Soluta earum pariatur quidem officia sapiente.
+          </p>
+
+          <p id="show-more">SHOW MORE</p>
+          <!-- </p> -->
+        </div>
+      </section>
+      <!-- </div> -->
       <aside class="recommendation">
         <span>Up Next</span>
         <div class="recommended-video">
           <div class="video-img-container">
-            <img src="https://via.placeholder.com/100" alt="video-image" class="thumbnail">
+            <img
+              src="https://via.placeholder.com/100"
+              alt="video-image"
+              class="thumbnail"
+            />
           </div>
           <div class="info">
-            <p class="rec-video-title">How to Contribute to Open Source Projects on Github</p>
+            <p class="rec-video-title">
+              How to Contribute to Open Source Projects on Github
+            </p>
             <p class="channel-name">Jovo</p>
             <div class="ratings">
               <p class="views">7.6k views</p>
@@ -102,51 +121,18 @@
             </div>
           </div>
         </div>
-          <div class="recommended-video">
-            <div class="video-img-container">
-              <img src="https://via.placeholder.com/100" alt="video-image" class="thumbnail">
-            </div>
-            <div class="info">
-              <p class="rec-video-title">How to Contribute to Open Source Projects on Github</p>
-              <p class="channel-name">Jovo</p>
-              <div class="ratings">
-                <p class="views">7.6k views</p>
-                <p class="date"><span>.</span> 1 year go</p>
-              </div>
-            </div>
-          </div>
-            <div class="recommended-video">
-              <div class="video-img-container">
-                <img src="https://via.placeholder.com/100" alt="video-image" class="thumbnail">
-              </div>
-              <div class="info">
-                <p class="rec-video-title">How to Contribute to Open Source Projects on Github</p>
-                <p class="channel-name">Jovo</p>
-                <div class="ratings">
-                  <p class="views">7.6k views</p>
-                  <p class="date"><span>.</span> 1 year go</p>
-                </div>
-              </div>
-            </div>
-              <div class="recommended-video">
-                <div class="video-img-container">
-                  <img src="https://via.placeholder.com/100" alt="video-image" class="thumbnail">
-                </div>
-                <div class="info">
-                  <p class="rec-video-title">How to Contribute to Open Source Projects on Github</p>
-                  <p class="channel-name">Jovo</p>
-                  <div class="ratings">
-                    <p class="views">7.6k views</p>
-                    <p class="date"><span>.</span> 1 year go</p>
-                  </div>
-                </div>
-              </div>
-                <div class="recommended-video">
+        <div class="recommended-video">
           <div class="video-img-container">
-            <img src="https://via.placeholder.com/100" alt="video-image" class="thumbnail">
+            <img
+              src="https://via.placeholder.com/100"
+              alt="video-image"
+              class="thumbnail"
+            />
           </div>
           <div class="info">
-            <p class="rec-video-title">How to Contribute to Open Source Projects on Github</p>
+            <p class="rec-video-title">
+              How to Contribute to Open Source Projects on Github
+            </p>
             <p class="channel-name">Jovo</p>
             <div class="ratings">
               <p class="views">7.6k views</p>
@@ -154,34 +140,101 @@
             </div>
           </div>
         </div>
-          <div class="recommended-video">
-            <div class="video-img-container">
-              <img src="https://via.placeholder.com/100" alt="video-image" class="thumbnail">
-            </div>
-            <div class="info">
-              <p class="rec-video-title">How to Contribute to Open Source Projects on Github</p>
-              <p class="channel-name">Jovo</p>
-              <div class="ratings">
-                <p class="views">7.6k views</p>
-                <p class="date"><span>.</span> 1 year go</p>
-              </div>
+        <div class="recommended-video">
+          <div class="video-img-container">
+            <img
+              src="https://via.placeholder.com/100"
+              alt="video-image"
+              class="thumbnail"
+            />
+          </div>
+          <div class="info">
+            <p class="rec-video-title">
+              How to Contribute to Open Source Projects on Github
+            </p>
+            <p class="channel-name">Jovo</p>
+            <div class="ratings">
+              <p class="views">7.6k views</p>
+              <p class="date"><span>.</span> 1 year go</p>
             </div>
           </div>
-            <div class="recommended-video">
-              <div class="video-img-container">
-                <img src="https://via.placeholder.com/100" alt="video-image" class="thumbnail">
-              </div>
-              <div class="info">
-                <p class="rec-video-title">How to Contribute to Open Source Projects on Github</p>
-                <p class="channel-name">Jovo</p>
-                <div class="ratings">
-                  <p class="views">7.6k views</p>
-                  <p class="date"><span>.</span> 1 year go</p>
-                </div>
-              </div>
+        </div>
+        <div class="recommended-video">
+          <div class="video-img-container">
+            <img
+              src="https://via.placeholder.com/100"
+              alt="video-image"
+              class="thumbnail"
+            />
+          </div>
+          <div class="info">
+            <p class="rec-video-title">
+              How to Contribute to Open Source Projects on Github
+            </p>
+            <p class="channel-name">Jovo</p>
+            <div class="ratings">
+              <p class="views">7.6k views</p>
+              <p class="date"><span>.</span> 1 year go</p>
             </div>
-
-
+          </div>
+        </div>
+        <div class="recommended-video">
+          <div class="video-img-container">
+            <img
+              src="https://via.placeholder.com/100"
+              alt="video-image"
+              class="thumbnail"
+            />
+          </div>
+          <div class="info">
+            <p class="rec-video-title">
+              How to Contribute to Open Source Projects on Github
+            </p>
+            <p class="channel-name">Jovo</p>
+            <div class="ratings">
+              <p class="views">7.6k views</p>
+              <p class="date"><span>.</span> 1 year go</p>
+            </div>
+          </div>
+        </div>
+        <div class="recommended-video">
+          <div class="video-img-container">
+            <img
+              src="https://via.placeholder.com/100"
+              alt="video-image"
+              class="thumbnail"
+            />
+          </div>
+          <div class="info">
+            <p class="rec-video-title">
+              How to Contribute to Open Source Projects on Github
+            </p>
+            <p class="channel-name">Jovo</p>
+            <div class="ratings">
+              <p class="views">7.6k views</p>
+              <p class="date"><span>.</span> 1 year go</p>
+            </div>
+          </div>
+        </div>
+        <div class="recommended-video">
+          <div class="video-img-container">
+            <img
+              src="https://via.placeholder.com/100"
+              alt="video-image"
+              class="thumbnail"
+            />
+          </div>
+          <div class="info">
+            <p class="rec-video-title">
+              How to Contribute to Open Source Projects on Github
+            </p>
+            <p class="channel-name">Jovo</p>
+            <div class="ratings">
+              <p class="views">7.6k views</p>
+              <p class="date"><span>.</span> 1 year go</p>
+            </div>
+          </div>
+        </div>
       </aside>
     </main>
   </body>

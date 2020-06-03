@@ -107,6 +107,7 @@ main {
 iframe {
   width: 100%;
   height: 75vh;
+  border: none;
 }
 
 #video-title {
@@ -163,7 +164,6 @@ span {
 }
 
 .recommendation {
-  width: 40%;
   margin: 10px;
 }
 
