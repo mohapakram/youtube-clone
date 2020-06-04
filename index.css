@@ -60,7 +60,7 @@ header {
 }
 
 #icons-bar {
-  width: 15%;
+  margin: 0 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -215,6 +215,9 @@ span {
   color: #fff;
   border: none;
   font-size: 14px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
 }
 
 #subscribe:focus {
