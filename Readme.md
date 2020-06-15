@@ -26,11 +26,8 @@ Open index.html file in your browser.
 👤 **Olawale**
 
 - Github: [@githubhandle](https://github.com/OlawaleJoseph)
-<<<<<<< HEAD
-=======
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
->>>>>>> master
 
 ## 🤝 Contributing
 
